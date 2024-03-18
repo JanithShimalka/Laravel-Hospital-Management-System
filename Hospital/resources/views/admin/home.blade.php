@@ -1,3 +1,3 @@
 <x-app-layout>
-<h1>User dashboad</h1>
+   <h1>Admin dashboad</h1>
 </x-app-layout>
