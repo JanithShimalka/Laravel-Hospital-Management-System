@@ -7,8 +7,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/',[HomeController::class,'indexa']);
 Route::get('/home',[HomeController::class,'redirectdd']);
-Route::get('/dashboard',[HomeController::class,'redirectdd']);
+//Route::get('/dashboard',[HomeController::class,'redirectdd']);
 
 Route::middleware([
     'auth:sanctum',

@@ -23,4 +23,9 @@ class HomeController extends Controller
             return redirect()->back();
         }
     }
+
+    public function indexa(){
+        return view('user.home');
+
+    }
 }
